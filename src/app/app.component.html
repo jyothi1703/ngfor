@@ -1,0 +1,17 @@
+<div>
+  <p>THis is my new Projet in Angular</p>
+  <table border=1>
+    <thead>
+      <td>S.No</td>
+      <td>Employee Name</td>
+      <td>Department</td>
+    </thead>
+    <tbody>
+      <tr *ngFor = 'let x of Employees; let i = index'>
+        <td>{{i+1}}</td>
+        <td>{{x.empname}}</td>
+        <td>{{x.department}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
