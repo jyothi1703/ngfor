@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Jyothi App';
   Employees = [
-              {empname : 'Anitha' , department : 'IT' },
-              {empname : 'Ravi' , department : 'Services' },
-              {empname : 'Arjun' , department : 'QA' },
-              {empname : 'Pooja' , department : 'Testing' },
-              {empname : 'Preetham' , department : 'Admin' },
-              {empname : 'Rajesh' , department : 'Managment' },
-              {empname : 'Suraj' , department : 'Developer' },
-              {empname : 'Ankith' , department : 'IT' }
+              {empname : 'Anitha' , department : 'IT' , num : '7893999401' },
+              {empname : 'Ravi' , department : 'Services',num : '7893999401' },
+              {empname : 'Arjun' , department : 'QA',num : '7893999401' },
+              {empname : 'Pooja' , department : 'Testing',num : '7893999401' },
+              {empname : 'Preetham' , department : 'Admin',num : '7893999401' },
+              {empname : 'Rajesh' , department : 'Managment',num : '7893999401' },
+              {empname : 'Suraj' , department : 'Developer',num : '7893999401' },
+              {empname : 'Ankith' , department : 'IT',num : '7893999401' }
   ]
 }
